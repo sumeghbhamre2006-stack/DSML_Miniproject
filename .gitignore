@@ -1,0 +1,31 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Large Datasets (>100MB cannot be pushed to GitHub)
+accepted_2007_to_2018Q4.csv
+*.csv.zip
+*.zip
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Model binaries (optional, keep or rebuild via train.py)
+# model.pkl
+
+# IDE / Editor folders
+.vscode/
+.idea/
